@@ -1,0 +1,29 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__
+
+# Ignore environment-specific settings
+.env
+*.env
+
+# Ignore local development settings
+*.sqlite3
+*/local_settings.py
+
+# Ignore log files
+*.log
+
+# Ignore static and media files (only if you use a CDN or external storage)
+/staticfiles
+/media
+
+# Ignore user-specific settings
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment
+venv/
